@@ -1,3 +1,5 @@
+let amigos = [];
 function adicionarAmigo() {
-    console.log('botão clicado')
+    
+    const name = document.getElementById('input-name').value.trim();
 }
