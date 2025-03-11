@@ -46,4 +46,7 @@ function sortearAmigo() {
     const aleatorio = Math.floor(Math.random() * amigos.length);
     const sorteado = amigos[aleatorio];
 
+    // Exibe o nome da pessoa sorteada e oculta a lista de amigos
+    exibirResultadoSorteio(sorteado);
+
 }
