@@ -9,4 +9,5 @@ Este é um projeto simples de um sorteio de **Amigo Secreto** feito com **HTML**
 - **Exibição do sorteio**: O nome do amigo sorteado será exibido na tela e a lista de amigos será ocultada.
 
 # vídeo demonstrando o funcionamento do projeto:
-https://youtu.be/ROmUdqaG6V4
+
+[![Veja o vídeo](https://img.youtube.com/vi/ROmUdqaG6V4/0.jpg)](https://youtu.be/ROmUdqaG6V4)
