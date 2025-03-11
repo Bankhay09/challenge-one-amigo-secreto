@@ -49,4 +49,7 @@ function sortearAmigo() {
     // Exibe o nome da pessoa sorteada e oculta a lista de amigos
     exibirResultadoSorteio(sorteado);
 
+    // Esconde a lista de amigos
+    document.getElementById('listaAmigos').style.display = 'none';
 }
+
