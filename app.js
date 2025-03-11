@@ -41,5 +41,8 @@ function sortearAmigo() {
         return;
     }
 
-
+    // Embaralha o array de amigos para um sorteio mais aleatório
+    const amigosSorteados = [...amigos];
+    const aleatorio = Math.floor(Math.random() * amigosSorteados.length);  // Sorteia uma posição
+    const sorteado = amigosSorteados[aleatorio];
 }
