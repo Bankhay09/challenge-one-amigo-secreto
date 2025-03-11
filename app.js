@@ -18,3 +18,7 @@ function adicionarAmigo() {
     // Limpa o campo de entrada
     document.getElementById('amigo').value = '';
 
+    // Exibe a lista de amigos
+    exibirListaDeAmigos();
+}
+
