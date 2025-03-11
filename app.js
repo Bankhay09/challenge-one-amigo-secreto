@@ -22,3 +22,9 @@ function adicionarAmigo() {
     exibirListaDeAmigos();
 }
 
+// Função para exibir os amigos na tela
+function exibirListaDeAmigos() {
+    const lista = document.getElementById('listaAmigos');
+    lista.innerHTML = ''; // Limpa a lista atual
+
+}
