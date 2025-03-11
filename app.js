@@ -53,3 +53,12 @@ function sortearAmigo() {
     document.getElementById('listaAmigos').style.display = 'none';
 }
 
+// Função para exibir o resultado do sorteio
+function exibirResultadoSorteio(sorteado) {
+    const resultadoUl = document.getElementById('resultado');
+    resultadoUl.innerHTML = ''; // Limpa a lista atual de resultados
+
+    const li = document.createElement('li');
+    li.textContent = `O amigo secreto sorteado é: ${sorteado}`;
+    resultadoUl.appendChild(li);
+}
