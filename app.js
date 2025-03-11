@@ -27,4 +27,19 @@ function exibirListaDeAmigos() {
     const lista = document.getElementById('listaAmigos');
     lista.innerHTML = ''; // Limpa a lista atual
 
+    amigos.forEach(function(nome) {
+        const li = document.createElement('li');
+        li.textContent = nome;
+        lista.appendChild(li);
+    });
+}
+
+// Função para sortear um amigo secreto
+function sortearAmigo() {
+    if (amigos.length < 2) {
+        alert("É necessário pelo menos dois amigos para realizar o sorteio.");
+        return;
+    }
+
+
 }
