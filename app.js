@@ -7,4 +7,5 @@ function adicionarAmigo() {
         alert("Por favor, digite um nome!");
         return;
       }
+      amigos.push(nome);
     }
