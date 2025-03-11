@@ -1,1 +1,3 @@
-let amigos = []
+function adicionarAmigo() {
+    console.log('botão clicado')
+}
